@@ -4,10 +4,10 @@
  * @n: argument.
  * Return: the len of the number.
  */
-int    tyrant_putnbr(int n)
+int tyrant_putnbr(int n)
 {
-long    nb;
-int        len;
+long nb;
+int len;
 
 nb = (long)n;
 len = smol_int_len(nb);

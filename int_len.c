@@ -4,10 +4,10 @@
  * @n: argumen t.
  * Return: the len of the integer.
  */
-int    smol_int_len(int n)
+int smol_int_len(int n)
 {
-int        i;
-long    nb;
+int i;
+long nb;
 
 nb = (long)n;
 i = 1;

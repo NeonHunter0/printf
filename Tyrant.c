@@ -5,9 +5,9 @@
  * @c: the character in the format srting.
  * Return: the current count.
  */
-int    conditions(va_list args, char c)
+int conditions(va_list args, char c)
 {
-int    count;
+	int count;
 
 count = 0;
 if (c == 'c')
@@ -34,10 +34,10 @@ return (count);
  */
 int _printf(const char *format, ...)
 {
-int        i;
-int        count;
-va_list    args;
-char    c;
+int i;
+int count;
+va_list args;
+char c;
 
 i = 0;
 count = 0;

@@ -5,9 +5,9 @@
  *
  * Return: returns the lenghts of the string.
  */
-int    revo_putstr(char *str)
+int revo_putstr(char *str)
 {
-int    i;
+int i;
 
 i = 0;
 if (str)
